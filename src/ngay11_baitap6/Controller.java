@@ -23,8 +23,8 @@ public class Controller {
 
 //    public void clearAllData(String fileName){
 //        openFileToWrite(fileName);
-//        printWriter.
-//
+//        printWriter.flush();
+//        closeFileAfterWrite(fileName);
 //    }
 
     public void openFileToWrite(String fileName){

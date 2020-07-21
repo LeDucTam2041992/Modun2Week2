@@ -1,6 +1,6 @@
-package ngay12_thuchanh;
+package ngay12_thuchanh2;
 
-public class Student {
+public class Student implements Comparable<Student>{
     private String name;
     private int age;
     private String address;
@@ -36,6 +36,11 @@ public class Student {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        return this.getName().compareTo(o.getName());
     }
 
     @Override

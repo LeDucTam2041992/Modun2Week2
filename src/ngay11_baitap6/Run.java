@@ -55,6 +55,7 @@ public class Run {
                             non.add(s);
                         }
                     }
+//                    controller.clearAllData(fileOutput);
                     for (Employee s:non) {
                         controller.writeEmployeeToFile(fileOutput,s);
                     }

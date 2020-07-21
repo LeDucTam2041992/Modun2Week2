@@ -1,2 +1,3 @@
 Tom|male|22-05-2000
 Mary|female|09-10-1998
+Jack|male|25-5-1998
